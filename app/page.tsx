@@ -2,6 +2,8 @@ import Image from "next/image";
 import styles from "./page.module.css";
 
 export default function Home() {
+  const a: number = 1;
+
   return (
     <div className={styles.page}>
       <main className={styles.main}>
@@ -42,7 +44,7 @@ export default function Home() {
             rel="noopener noreferrer"
             className={styles.secondary}
           >
-            Read our docs
+            {a}
           </a>
         </div>
       </main>
